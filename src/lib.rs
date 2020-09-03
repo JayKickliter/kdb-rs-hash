@@ -1,8 +1,5 @@
-#![feature(int_to_from_bytes)]
 #![feature(box_patterns)]
-#![feature(alloc_system)]
 
-extern crate alloc_system; // use the system allocator for performance and instrumentation
 extern crate fasthash;
 extern crate rkdb;
 
